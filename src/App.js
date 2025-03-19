@@ -26,7 +26,6 @@ const initialState = {
   isActive: false
 };
 
-
 function reducer(state, action) {
   switch(action.type) {
     case "openAccount":
